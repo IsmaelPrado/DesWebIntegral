@@ -3,7 +3,7 @@ name:  Mi Hello World
 
 # Evento
 on: 
-  workflow_dispatch:
+  push:
 
 jobs:
   Tarea1:
