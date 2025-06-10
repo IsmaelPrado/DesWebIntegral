@@ -7,6 +7,7 @@ function App() {
       <div className="container mt-4">
         <div className="card shadow-sm p-4">
           <h2 className="text-primary">Bienvenido a mi página Web: Cristian Prado</h2>
+          <h2>Profesor: Gabriel Barrón</h2>
           <hr />
           <p className="lead">
             Esta simple aplicación está creada con <strong>React y Bootstrap</strong>.
