@@ -1,0 +1,21 @@
+# Nombre del workflow
+name:  Mi Hello World
+
+# Evento
+on: 
+  push:
+
+jobs:
+  Tarea1:
+    runs-on: ubuntu-latest
+
+    steps:
+      -  name: Diciendo hola
+         run: echo "Hola mundo :)"
+
+      - name: Quine soy 
+        run: whoami
+
+      - name: Fecha
+        run: date
+      
